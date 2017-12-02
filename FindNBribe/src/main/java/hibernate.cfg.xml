@@ -8,10 +8,12 @@
     <property name="format_sql">true</property>
     <property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
     <property name="connection.driver_class">org.sqlite.JDBC</property>
-    <property name="connection.url">jdbc:sqlite:mydb.db</property>
-    <property name="connection.username">true</property>
-    <property name="connection.password" >true</property>
-    <property name="hibernate.hbm2ddl.auto">update</property>
-    <mapping class=""/>
+    <property name="connection.url">jdbc:sqlite:findnbribe.db</property>
+    <property name="connection.username"></property>
+    <property name="connection.password" ></property>
+    <mapping class="model.Map"/>
+    <mapping class="model.Field"/>
+    <mapping class="model.Player"/>
+    <mapping class="model.Turn"/>
   </session-factory>
 </hibernate-configuration>
