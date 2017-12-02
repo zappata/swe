@@ -3,42 +3,59 @@ package model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="field")
+@Table(name="Field")
 public class Field {
-  @Id
-  @Column(name="map_number")
-  private int map_number;
   
-  @Column(name="field_type")
+  @Id
+  @Column(name="id")
+  private int id;
+
+  @Column(name="type")
   private String type;
   
-  @Column(name="field_row_number")
+  @Column(name="row")
   private int row;
   
-  @Column(name="field_column_number")
+  @Column(name="column")
   private int column;
+  
+  @ManyToOne
+  private Map map;
   
   public Field() {}
   
-  public Field(int number, String type, int row, int column) {
-    setNumber(number);
+  public Field(int id, String type, int row, int column, Map map) {
+    setId(id);
     setType(type);
     setRow(row);
     setColumn(column);
+    setMap(map);
   } 
   
-  public int getNumber() {
-    return map_number;
+  public Map getMap() {
+    return map;
   }
-  public void setNumber(int number) {
-    this.map_number = number;
+
+  public void setMap(Map map) {
+    this.map = map;
   }
+
+  public int getId() {
+    return id;
+  }
+
+  public void setId(int id) {
+    this.id = id;
+  }
+
   public String getType() {
     return type;
   }
+
   public void setType(String type) {
     this.type = type;
   }

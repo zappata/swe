@@ -1,7 +1,7 @@
 package model;
 
 import java.util.ArrayList;
-import javax.persistence.CascadeType;
+import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -9,8 +9,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="spieler")
+@Table(name="Player")
 public class Player {
+  
   @Id
   @Column(name="id")
   private int id;
@@ -18,14 +19,14 @@ public class Player {
   @Column(name="name")
   private String name;
   
-  @Column(name="nummer")
+  @Column(name="numbers")
   private int number;
   
   @Column(name="status")
   private String status;
   
-  @OneToMany(mappedBy ="id" + "name", cascade = CascadeType.ALL)
-  private ArrayList<Turn> turns = new ArrayList<Turn>();
+  @OneToMany(mappedBy ="player")
+  private List<Turn> turns = new ArrayList<Turn>();
   
   public Player(){}
   
@@ -67,12 +68,14 @@ public class Player {
   public void setStatus(String status) {
     this.status = status;
   }
-  
-  public ArrayList<Turn> getMap() {
+
+  public List<Turn> getTurns() {
     return turns;
   }
 
-  public void setMap(ArrayList<Turn> map) {
+  public void setTurns(List<Turn> turns) {
     this.turns = turns;
   }
+ 
+
 }

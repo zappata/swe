@@ -1,42 +1,51 @@
 package model;
 
 import java.util.ArrayList;
-import javax.persistence.CascadeType;
+import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
-/*
-@NamedQueries({
-  @NamedQuery(
-      name = "get_data",
-      query = "from Map"
-      )
-})
-*/
 
 
 @Entity
-@Table(name="map")
+@Table(name="Map")
 public class Map {
   
   @Id
   @Column(name="id")
   private int id;
   
+  @OneToOne
+  private Player player;
   
-  @OneToMany(mappedBy="map_id", cascade= CascadeType.ALL)
-  private ArrayList<Field> map = new ArrayList <Field>();
+  @OneToMany(mappedBy="map")
+  private List<Field> fields = new ArrayList<Field>();
   
+  public List<Field> getFields() {
+    return fields;
+  }
+
+  public void setFields(List<Field> fields) {
+    this.fields = fields;
+  }
+
   public Map() {}
   
-  public Map(int id, ArrayList<Field> maps) {
+  public Map(int id, Player player) {
     setId(id);
-    setMap(maps);
+    setPlayer(player);
+    fields = new ArrayList <>();
+  }
+
+  public Player getPlayer() {
+    return player;
+  }
+
+  public void setPlayer(Player player) {
+    this.player = player;
   }
 
   public int getId() {
@@ -47,13 +56,6 @@ public class Map {
     this.id = id;
   }
 
-  public ArrayList<Field> getMap() {
-    return map;
-  }
+  
 
-  public void setMap(ArrayList<Field> map) {
-    this.map = map;
-  }
-  
-  
 }

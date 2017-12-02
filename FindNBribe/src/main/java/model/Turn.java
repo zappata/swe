@@ -3,47 +3,42 @@ package model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="spielzug")
+@Table(name="Turn")
 public class Turn {
 
   @Id
   @Column(name="id")
   private int id;
   
-  @Id
-  @Column(name="spieler_id")
-  private int player_id;
-  
-  @Id
-  @Column(name="spieler_name")
-  private String player_name;
-
-  @Column(name="aktuelle_Anzahl")
+  @Column(name="current_count")
   private int count;
   
-  @Column(name="aktuelle_Zeile")
+  @Column(name="current_row")
   private int row;
   
-  @Column(name="aktuelle_Spalte")
+  @Column(name="current_column")
   private int column;
   
-  @Column(name="richtung")
+  @Column(name="direction")
   private int direction;
   
+  @ManyToOne
+  private Player player;
+
   public Turn() {}
   
-  public Turn(int id, int player_id, String player_name, int count,
-      int row, int column, int direction) {
+  public Turn(int id, int player_id, int count,
+      int row, int column, int direction, Player player) {
     setId(id);
-    setPlayer_id(player_id);
-    setPlayer_name(player_name);
     setCount(count);
     setRow(row);
     setColumn(column);
     setDirection(direction);
+    setPlayer(player);
   }
   
   public int getId() {
@@ -52,22 +47,6 @@ public class Turn {
 
   public void setId(int id) {
     this.id = id;
-  }
-
-  public int getPlayer_id() {
-    return player_id;
-  }
-
-  public void setPlayer_id(int player_id) {
-    this.player_id = player_id;
-  }
-
-  public String getPlayer_name() {
-    return player_name;
-  }
-
-  public void setPlayer_name(String player_name) {
-    this.player_name = player_name;
   }
 
   public int getCount() {
@@ -100,6 +79,14 @@ public class Turn {
 
   public void setDirection(int direction) {
     this.direction = direction;
+  }
+  
+  public Player getPlayer() {
+    return player;
+  }
+
+  public void setPlayer(Player player) {
+    this.player = player;
   }
   
 }
