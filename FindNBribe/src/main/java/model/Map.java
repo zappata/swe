@@ -36,20 +36,11 @@ public class Map {
   @OneToMany(mappedBy = "map")
   private List<Field> fields = new ArrayList<Field>();
 
-  public List<Field> getFields() {
-    return fields;
-  }
-
-  public void setFields(List<Field> fields) {
-    this.fields = fields;
-  }
-
   public Map() {}
 
   public Map(int id, Player player) {
     setId(id);
     setPlayer(player);
-    fields = new ArrayList<>();
     setCastle_row(0);
     setCastle_column(0);
     setTreasure_column(0);
@@ -103,6 +94,19 @@ public class Map {
   public void setCastle_column(int castle_column) {
     this.castle_column = castle_column;
   }
+  
+  public List<Field> getFields() {
+    return fields;
+  }
+
+  public void setFields(List<Field> fields) {
+    this.fields = fields;
+  }
+  
+  public void setField(Field field) {
+    this.fields.add(field);
+  }
+  
 
   public String getTypeOfField(int row, int column) {
     for (int i = 0; i < fields.size(); i++) {

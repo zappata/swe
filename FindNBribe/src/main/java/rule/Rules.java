@@ -82,7 +82,7 @@ public class Rules implements IRules {
   @Override
   public boolean ControllPlayerEntry(Turn turn, Map map) {
     // TODO Auto-generated method stub
-    if (turn.getRow() < 1 || turn.getRow() > 8 || turn.getColumn() < 1 || turn.getColumn() > 4) {
+    if (turn.getRow() < 1 || turn.getRow() > 8 || turn.getColumn() < 1 || turn.getColumn() > 8) {
       return false;
     } else if (map.getTypeOfField(turn.getRow(), turn.getColumn()).equals("w")) {
       return false;
