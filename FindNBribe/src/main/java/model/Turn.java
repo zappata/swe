@@ -7,32 +7,31 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Turn")
+@Table(name = "Turn")
 public class Turn {
 
   @Id
-  @Column(name="id")
+  @Column(name = "id")
   private int id;
-  
-  @Column(name="current_count")
+
+  @Column(name = "current_count")
   private int count;
-  
-  @Column(name="current_row")
+
+  @Column(name = "current_row")
   private int row;
-  
-  @Column(name="current_column")
+
+  @Column(name = "current_column")
   private int column;
-  
-  @Column(name="direction")
+
+  @Column(name = "direction")
   private int direction;
-  
+
   @ManyToOne
   private Player player;
 
   public Turn() {}
-  
-  public Turn(int id, int player_id, int count,
-      int row, int column, int direction, Player player) {
+
+  public Turn(int id, int count, int row, int column, int direction, Player player) {
     setId(id);
     setCount(count);
     setRow(row);
@@ -40,7 +39,7 @@ public class Turn {
     setDirection(direction);
     setPlayer(player);
   }
-  
+
   public int getId() {
     return id;
   }
@@ -80,7 +79,7 @@ public class Turn {
   public void setDirection(int direction) {
     this.direction = direction;
   }
-  
+
   public Player getPlayer() {
     return player;
   }
@@ -88,5 +87,5 @@ public class Turn {
   public void setPlayer(Player player) {
     this.player = player;
   }
-  
+
 }

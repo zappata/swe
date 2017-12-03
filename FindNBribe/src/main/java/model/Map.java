@@ -11,19 +11,31 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="Map")
+@Table(name = "Map")
 public class Map {
-  
+
   @Id
-  @Column(name="id")
+  @Column(name = "id")
   private int id;
-  
+
+  @Column(name = "treasure_row")
+  private int treasure_row;
+
+  @Column(name = "treasure_column")
+  private int treasure_column;
+
+  @Column(name = "castle_row")
+  private int castle_row;
+
+  @Column(name = "castle_column")
+  private int castle_column;
+
   @OneToOne
   private Player player;
-  
-  @OneToMany(mappedBy="map")
+
+  @OneToMany(mappedBy = "map")
   private List<Field> fields = new ArrayList<Field>();
-  
+
   public List<Field> getFields() {
     return fields;
   }
@@ -33,11 +45,15 @@ public class Map {
   }
 
   public Map() {}
-  
+
   public Map(int id, Player player) {
     setId(id);
     setPlayer(player);
-    fields = new ArrayList <>();
+    fields = new ArrayList<>();
+    setCastle_row(0);
+    setCastle_column(0);
+    setTreasure_column(0);
+    setTreasure_row(0);
   }
 
   public Player getPlayer() {
@@ -56,6 +72,45 @@ public class Map {
     this.id = id;
   }
 
-  
+  public int getTreasure_row() {
+    return treasure_row;
+  }
+
+  public void setTreasure_row(int treasure_row) {
+    this.treasure_row = treasure_row;
+  }
+
+  public int getTreasure_column() {
+    return treasure_column;
+  }
+
+  public void setTreasure_column(int treasure_column) {
+    this.treasure_column = treasure_column;
+  }
+
+  public int getCastle_row() {
+    return castle_row;
+  }
+
+  public void setCastle_row(int castle_row) {
+    this.castle_row = castle_row;
+  }
+
+  public int getCastle_column() {
+    return castle_column;
+  }
+
+  public void setCastle_column(int castle_column) {
+    this.castle_column = castle_column;
+  }
+
+  public String getTypeOfField(int row, int column) {
+    for (int i = 0; i < fields.size(); i++) {
+      if (fields.get(i).getRow() == row && fields.get(i).getColumn() == column) {
+        return fields.get(i).getType();
+      }
+    }
+    return null;
+  }
 
 }
