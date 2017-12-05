@@ -16,15 +16,19 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Main {
+
+  private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
   private static SessionFactory sessionFactory = null;
 
   // Database connection
   private static SessionFactory configureSessionFactory() throws HibernateException {
     sessionFactory = new Configuration().configure().buildSessionFactory();
-    System.out.println("Databse loaded");
+    logger.info("Databse Loaded successfully");
     return sessionFactory;
   }
 
@@ -35,53 +39,89 @@ public class Main {
 
     try {
 
+      // *************Variables ****
       IRules rules = new Rules();
-
       Field field = null;
       Turn turn = null;
       Map map = null;
       Player player = null;
+
       List<Player> players = new ArrayList<Player>();
 
       int direction = 0;
-      int row = 0;
-      int column = 0;
-      String type = "";
+
+      // Begin Position of players
+      int player_1_row = 1;
+      int player_1_column = 1;
+      int player_2_row = 8;
+      int player_2_column = 8;
+
       int id = 0;
-
-     /* player = new Player(1, "hamed", 1, "nichts");
-      map = new Map(1, player);
-
-      session.save(player);
-      session.save(map);
-      */
+      String type = "";
 
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+      // **************** Variables
 
       session = sessionFactory.openSession();
+
+      // Retrieving datas
+      try {
+        List<Field> felder = session.createNamedQuery("get_field", Field.class)
+            .setParameter("type", "w").getResultList();
+
+        for (Field feld : felder) {
+          System.out.println(
+              "Die Reihe ist " + feld.getRow() + " und die Spalte ist " + feld.getColumn());
+        }
+
+        Player winners = session.createNamedQuery("get_winners", Player.class)
+            .setParameter("status", "winner").getSingleResult();
+
+        System.out.println("Der Gewinner ist " + winners.getName());
+
+        Player result = session.createNamedQuery("get_player", Player.class)
+            .setParameter("name", "Alex").getSingleResult();
+
+        System.out.println("Der Spieler ist " + result.getStatus());
+
+        int from = 9;
+        int til = 21;
+
+        List<Turn> all_turns = session.createNamedQuery("get_game_rounds", Turn.class)
+            .setParameter("from", from).setParameter("til", til).getResultList();
+
+        for (Turn t : all_turns) {
+          System.out.println("Die Richtung war " + t.getDirection());
+        }
+      } catch (Exception e) {
+        logger.error("Keine Daten vorhanden");
+      }
+
       transaction = session.beginTransaction();
 
-      /* Insert Data */
+      // Insert Data
       for (int i = 0; i < 2; i++) {
         System.out.println("Geben Sie den Namen vom Spieler ein:");
         String name = br.readLine();
-
-        player = new Player(i, name, i, "nichts");
+        player = new Player(i, name, (i + 1), "winner");
         map = new Map(i, player);
+
+        session.persist(player);
+        session.persist(map);
 
         for (int j = 1; j < 5; j++) {
           for (int k = 1; k < 9; k++) {
             type = "";
             do {
+
               System.out.println("Geben Sie Die Art des " + j + " " + (id + 1)
-                  + ". Feldes ein: Achtung! zulässige Eingabe sind w, b, g");
+                  + ". Feldes ein: Achtung zulässige Eingabe sind w, b, g");
               type = br.readLine();
             } while (!type.equals("w") && !type.equals("b") && !type.equals("g"));
-            
+
             field = new Field(id, type, j, k, map);
             map.getFields().add(field);
-            
-            
+            session.persist(field);
             id++;
           }
         }
@@ -91,95 +131,163 @@ public class Main {
         map.setCastle_row(Integer.parseInt(type));
 
         System.out.println("Geben Sie die Spalte des Schlosses an: ");
+
         type = br.readLine();
+
         map.setCastle_column(Integer.parseInt(type));
 
-        session.save(map);
-        session.save(field);
-        
-        if (!rules.ControllMapSize(map) || !rules.ControllMapConditions(map)
-            || !rules.ControllMapWaterCondition(map) || !rules.ControllServerDataGeneration(map)
-            || !rules.ControllTreasureCastlePlace(map)
-            || !rules.ControllTreasureCastleWaterPlace(map)) {
+
+
+        if (!rules.ControllServerDataGeneration(map)) {
           player.setStatus("loser");
-          System.out.println("Sie haben gegen die Regeln verstoßen und somit verloren");
         }
 
+
+        map.setTreasure_row(2);
+        map.setTreasure_column(1);
+
+        if (!rules.ControllMapSize(map) || !rules.ControllMapConditions(map)
+            || !rules.ControllMapWaterCondition(map) || !rules.ControllTreasureCastlePlace(map)
+            || !rules.ControllTreasureCastleWaterPlace(map)) {
+          player.setStatus("loser");
+        }
+
+
         players.add(player);
+        session.update(player);
+        session.update(map);
 
       }
 
-      for (int j = 1; j < 21; j++) {
+      session.flush();
+      transaction.commit();
+
+
+      // Creating the Full Map
+      Map fullmap = new Map();
+
+      List<Map> maps = session.createNamedQuery("get_maps", Map.class).getResultList();
+
+      for (int i = 0; i < 2; i++) {
+        if (i == 1) {
+          maps.get(i).setCastle_row(maps.get(i).getCastle_row() + 4);
+          maps.get(i).setCastle_column(maps.get(i).getCastle_column() + 4);
+          maps.get(i).setTreasure_row(maps.get(i).getTreasure_row() + 4);
+          maps.get(i).setTreasure_column(maps.get(i).getTreasure_column() + 4);
+          for (int k = 0; k < 32; k++) {
+            maps.get(i).getFields().get(k).setRow(maps.get(i).getFields().get(k).getRow() + 4);
+            logger.info("Die Zeile ist jetzt: " + maps.get(i).getFields().get(k).getRow());
+          }
+        }
+        for (int j = 0; j < maps.get(i).getFields().size(); j++) {
+          fullmap.getFields().add(maps.get(i).getFields().get(j));
+        }
+      }
+
+      transaction = session.beginTransaction();
+
+
+      for (int j = 0; j < 20; j++) {
+        if (players.get(0).getStatus().equals("loser")
+            || players.get(1).getStatus().equals("loser")) {
+          break;
+        }
         System.out.println("Geben Sie die Richtung ein:");
-
-
 
         try {
           direction = Integer.parseInt(br.readLine());
         } catch (Exception e) {
-          System.out.println("Zulässige Eingaben sind 1-4");
+          System.out.println("Zulässige Eingaben sind 1 - 4");
           j--;
         }
 
-        row = 1;
-        column = 1;
-        switch (direction) {
-          case 1:
-            row = row + 1;
-            break;
-          case 2:
-            row = column + 1;
-            break;
-          case 3:
-            row = row - 1;
-            break;
-          case 4:
-            row = column - 1;
-            break;
+        if (j % 2 == 0) {
+          switch (direction) {
+            case 1:
+              player_1_row++;
+              break;
+            case 2:
+              player_1_column++;
+              break;
+            case 3:
+              player_1_row--;
+              break;
+            case 4:
+              player_1_column--;
+              break;
+          }
+        } else {
+          switch (direction) {
+            case 1:
+              player_2_row++;
+              break;
+            case 2:
+              player_2_column++;
+              break;
+            case 3:
+              player_2_row--;
+              break;
+            case 4:
+              player_2_column--;
+              break;
+          }
         }
-        if(j%2==0) {
-          turn = new Turn(2, (j + 1), row, column, direction, player); 
-          players.get(2).getTurns().add(turn);
-          session.save(turn);
-        }else {
-          turn = new Turn(1, (j + 1), row, column, direction, player); 
+
+        if (j % 2 == 0) {
+          turn = new Turn(j, ((j + 1) / 2), player_1_row, player_1_column, direction, player);
+          players.get(0).getTurns().add(turn);
+          session.persist(turn);
+          logger.info("Speiler_1 row: " + player_1_row);
+          logger.info("Speiler_1 col: " + player_1_column);
+
+          if (!rules.ControllPlayerEntry(turn, fullmap) || !rules.ConrollRounds(turn)) {
+            players.get(0).setStatus("loser");
+            break;
+          }
+
+        } else {
+          turn = new Turn(j, ((j + 1) / 2), player_2_row, player_2_column, direction, player);
           players.get(1).getTurns().add(turn);
-          session.save(turn);
+          session.persist(turn);
+          logger.info("Speiler_2 row: " + player_2_row);
+          logger.info("Speiler_2 col: " + player_2_column);
+
+          if (!rules.ControllPlayerEntry(turn, fullmap) || !rules.ConrollRounds(turn)) {
+            players.get(1).setStatus("loser");
+            break;
+          }
         }
+
       }
+      players.get(0).setStatus("winner");
 
-      if (!rules.ControllPlayerEntry(turn, map) && !rules.ConrollRounds(turn)) {
 
-      } else {
-        player.setStatus("loser");
-      }
-
-      /* Persisitierung */
+      // Persisitierung
       for (int i = 1; i <= 2; i++) {
-        session.save(players.get(i));
+        session.update(player);
       }
+
+
 
       /*
-      // Query Gewinner
-      Query winner = session.createQuery("from ");
-      winner.setParameter(1, "");
+       * // Query Gewinner Query winner = session.createQuery("from "); winner.setParameter(1, "");
+       * 
+       * // Query Alle Spieler Query all_player = session.createQuery("");
+       * all_player.setParameter(1, "");
+       * 
+       * // Query verlierer Query loser = session.createQuery(""); loser.setParameter(1, "");
+       * 
+       * // Query 10. bis 20. Spielzüge Query all_turns = session.createQuery("");
+       * all_turns.setParameter(1, "");
+       */
 
-      // Query Alle Spieler
-      Query all_player = session.createQuery("");
-      all_player.setParameter(1, "");
 
-      // Query verlierer
-      Query loser = session.createQuery("");
-      loser.setParameter(1, "");
-
-      // Query 10. bis 20. Spielzüge
-      Query all_turns = session.createQuery("");
-      all_turns.setParameter(1, "");
-      */
       session.flush();
       transaction.commit();
 
-    } catch (Exception e) {
+    } catch (
+
+    Exception e) {
       e.printStackTrace();
       transaction.rollback();
     } finally {

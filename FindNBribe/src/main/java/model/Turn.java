@@ -4,7 +4,16 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+
+@NamedQueries({
+  @NamedQuery(
+              name = "get_game_rounds", 
+              query = "from Turn where id > :from AND id < :til"
+      )
+})
 
 @Entity
 @Table(name = "Turn")

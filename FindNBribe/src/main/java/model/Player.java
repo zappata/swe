@@ -11,6 +11,18 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 
+@NamedQueries({
+  @NamedQuery(
+        name = "get_winners",
+        query="from Player where status = :status"
+      ),
+  @NamedQuery(
+      name = "get_player",
+      query="from Player where name = :name"
+    )
+})
+
+
 @Entity
 @Table(name="Player")
 public class Player {
