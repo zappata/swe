@@ -10,6 +10,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.BasicConfigurator;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -259,28 +260,11 @@ public class Main {
         }
 
       }
-      players.get(0).setStatus("winner");
-
 
       // Persisitierung
       for (int i = 1; i <= 2; i++) {
         session.update(player);
       }
-
-
-
-      /*
-       * // Query Gewinner Query winner = session.createQuery("from "); winner.setParameter(1, "");
-       * 
-       * // Query Alle Spieler Query all_player = session.createQuery("");
-       * all_player.setParameter(1, "");
-       * 
-       * // Query verlierer Query loser = session.createQuery(""); loser.setParameter(1, "");
-       * 
-       * // Query 10. bis 20. Spielzüge Query all_turns = session.createQuery("");
-       * all_turns.setParameter(1, "");
-       */
-
 
       session.flush();
       transaction.commit();

@@ -41,7 +41,7 @@ public class Rules implements IRules {
           break;
       }
     }
-    if (water < 4 && mountan < 3 && lawn < 5) {
+    if (water < 4 || mountan < 3 || lawn < 5) {
       System.out.println("Sie haben gegen die MapConditions verstoßen und somit verloren");
       logger.info("water: " + water);
       logger.info("Mountan: " + mountan);
