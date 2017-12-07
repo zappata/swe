@@ -7,6 +7,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @NamedQueries({
   @NamedQuery(
@@ -17,6 +19,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="Field")
+@XmlRootElement
 public class Field {
   
   @Id
@@ -45,6 +48,7 @@ public class Field {
     setMap(map);
   } 
   
+  @XmlElement
   public Map getMap() {
     return map;
   }
@@ -53,6 +57,7 @@ public class Field {
     this.map = map;
   }
 
+  @XmlElement
   public int getId() {
     return id;
   }
@@ -61,6 +66,7 @@ public class Field {
     this.id = id;
   }
 
+  @XmlElement
   public String getType() {
     return type;
   }
@@ -68,15 +74,21 @@ public class Field {
   public void setType(String type) {
     this.type = type;
   }
+  
+  @XmlElement
   public int getRow() {
     return row;
   }
+  
   public void setRow(int row) {
     this.row = row;
   }
+  
+  @XmlElement
   public int getColumn() {
     return column;
   }
+  
   public void setColumn(int column) {
     this.column = column;
   }

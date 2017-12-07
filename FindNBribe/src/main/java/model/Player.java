@@ -9,42 +9,37 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 
-@NamedQueries({
-  @NamedQuery(
-        name = "get_winners",
-        query="from Player where status = :status"
-      ),
-  @NamedQuery(
-      name = "get_player",
-      query="from Player where name = :name"
-    )
-})
+@NamedQueries({@NamedQuery(name = "get_winners", query = "from Player where status = :status"),
+    @NamedQuery(name = "get_player", query = "from Player where name = :name")})
 
 
 @Entity
-@Table(name="Player")
+@Table(name = "Player")
+@XmlRootElement(name = "player")
 public class Player {
-  
+
   @Id
-  @Column(name="id")
+  @Column(name = "id")
   private int id;
-  
-  @Column(name="name")
+
+  @Column(name = "name")
   private String name;
-  
-  @Column(name="numbers")
+
+  @Column(name = "numbers")
   private int number;
-  
-  @Column(name="status")
+
+  @Column(name = "status")
   private String status;
-  
-  @OneToMany(mappedBy ="player")
+
+  @OneToMany(mappedBy = "player")
   private List<Turn> turns = new ArrayList<Turn>();
-  
-  public Player(){}
-  
+
+  public Player() {}
+
   public Player(int id, String name, int number, String status) {
     setId(id);
     setName(name);
@@ -52,6 +47,7 @@ public class Player {
     setStatus(status);
   }
 
+  @XmlElement
   public int getId() {
     return id;
   }
@@ -60,6 +56,7 @@ public class Player {
     this.id = id;
   }
 
+  @XmlElement
   public String getName() {
     return name;
   }
@@ -68,6 +65,7 @@ public class Player {
     this.name = name;
   }
 
+  @XmlElement
   public int getNumber() {
     return number;
   }
@@ -76,6 +74,7 @@ public class Player {
     this.number = number;
   }
 
+  @XmlElement
   public String getStatus() {
     return status;
   }
@@ -84,6 +83,7 @@ public class Player {
     this.status = status;
   }
 
+  @XmlElement(name = "turns")
   public List<Turn> getTurns() {
     return turns;
   }
@@ -91,6 +91,6 @@ public class Player {
   public void setTurns(List<Turn> turns) {
     this.turns = turns;
   }
- 
+
 
 }

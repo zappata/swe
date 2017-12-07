@@ -10,6 +10,8 @@ import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @NamedQueries({
   @NamedQuery(
@@ -20,6 +22,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Map")
+@XmlRootElement(name="map")
 public class Map {
 
   @Id
@@ -55,6 +58,7 @@ public class Map {
     setTreasure_row(0);
   }
 
+  @XmlElement
   public Player getPlayer() {
     return player;
   }
@@ -63,6 +67,7 @@ public class Map {
     this.player = player;
   }
 
+  @XmlElement
   public int getId() {
     return id;
   }
@@ -71,6 +76,7 @@ public class Map {
     this.id = id;
   }
 
+  @XmlElement
   public int getTreasure_row() {
     return treasure_row;
   }
@@ -79,6 +85,7 @@ public class Map {
     this.treasure_row = treasure_row;
   }
 
+  @XmlElement
   public int getTreasure_column() {
     return treasure_column;
   }
@@ -87,6 +94,7 @@ public class Map {
     this.treasure_column = treasure_column;
   }
 
+  @XmlElement
   public int getCastle_row() {
     return castle_row;
   }
@@ -95,6 +103,7 @@ public class Map {
     this.castle_row = castle_row;
   }
 
+  @XmlElement
   public int getCastle_column() {
     return castle_column;
   }
@@ -103,6 +112,7 @@ public class Map {
     this.castle_column = castle_column;
   }
   
+  @XmlElement
   public List<Field> getFields() {
     return fields;
   }

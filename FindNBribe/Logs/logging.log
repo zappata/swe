@@ -1,0 +1,1563 @@
+2017-12-06 19:50:33 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 19:50:33 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 19:50:33 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 19:50:33 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:50:33 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 19:50:33 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 19:50:33 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 19:50:33 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 19:50:33 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 19:50:35 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:50:35 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 19:50:35 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 19:50:35 [main] INFO :: Databse Loaded successfully
+2017-12-06 19:50:36 [main] INFO :: *************Marshall
+2017-12-06 19:50:36 [main] INFO :: *************Marshall_End
+2017-12-06 19:50:36 [main] ERROR:: Keine Daten vorhanden
+2017-12-06 19:52:19 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 19:52:19 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 19:52:20 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 19:52:20 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:52:20 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 19:52:20 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 19:52:20 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 19:52:20 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 19:52:20 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 19:52:21 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:52:21 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 19:52:21 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 19:52:22 [main] INFO :: Databse Loaded successfully
+2017-12-06 19:52:22 [main] INFO :: *************Marshall
+2017-12-06 19:52:22 [main] INFO :: *************Marshall_End
+2017-12-06 19:52:22 [main] ERROR:: Keine Daten vorhanden
+2017-12-06 19:52:46 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 19:52:46 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 19:52:46 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 19:52:46 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:52:46 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 19:52:46 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 19:52:46 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 19:52:46 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 19:52:46 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 19:52:47 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:52:47 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 19:52:48 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 19:52:48 [main] INFO :: Databse Loaded successfully
+2017-12-06 19:52:48 [main] INFO :: *************Marshall
+2017-12-06 19:52:48 [main] INFO :: *************Marshall_End
+2017-12-06 19:52:48 [main] INFO :: *************Marshall_tunrs
+2017-12-06 19:52:48 [main] INFO :: *************Marshall_End
+2017-12-06 19:56:36 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 19:56:36 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 19:56:36 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 19:56:36 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:56:37 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 19:56:37 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 19:56:37 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 19:56:37 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 19:56:37 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 19:56:38 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:56:38 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 19:56:38 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 19:56:38 [main] INFO :: Databse Loaded successfully
+2017-12-06 19:56:38 [main] INFO :: *************Marshall
+2017-12-06 19:56:38 [main] INFO :: *************Marshall_End
+2017-12-06 19:56:38 [main] INFO :: *************Marshall_tunrs
+2017-12-06 19:56:39 [main] INFO :: *************Marshall_End
+2017-12-06 19:59:03 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 19:59:03 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 19:59:03 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 19:59:03 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:59:03 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 19:59:03 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 19:59:03 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 19:59:03 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 19:59:03 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 19:59:04 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 19:59:05 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 19:59:05 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 19:59:05 [main] INFO :: Databse Loaded successfully
+2017-12-06 19:59:05 [main] INFO :: *************Marshall
+2017-12-06 19:59:05 [main] INFO :: *************Marshall_End
+2017-12-06 19:59:05 [main] INFO :: *************Marshall_tunrs
+2017-12-06 19:59:05 [main] INFO :: *************Marshall_End
+2017-12-06 20:03:07 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 20:03:07 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 20:03:07 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 20:03:07 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 20:03:07 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 20:03:07 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 20:03:07 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 20:03:07 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 20:03:07 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 20:03:08 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 20:03:08 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 20:03:10 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 20:03:10 [main] INFO :: Databse Loaded successfully
+2017-12-06 20:03:10 [main] INFO :: *************Marshall
+2017-12-06 20:03:10 [main] INFO :: *************Marshall_End
+2017-12-06 20:03:10 [main] INFO :: *************Marshall_tunrs
+2017-12-06 20:03:10 [main] INFO :: *************Marshall_End
+2017-12-06 20:08:42 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 20:08:42 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 20:08:42 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 20:08:42 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 20:08:42 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 20:08:42 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 20:08:42 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 20:08:42 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 20:08:42 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 20:08:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 20:08:43 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 20:08:44 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 20:08:44 [main] INFO :: Databse Loaded successfully
+2017-12-06 20:08:44 [main] INFO :: *************Marshall
+2017-12-06 20:08:44 [main] INFO :: *************Marshall_End
+2017-12-06 20:08:44 [main] INFO :: *************Marshall_tunrs
+2017-12-06 20:08:44 [main] INFO :: *************Marshall_End
+2017-12-06 21:25:05 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:25:05 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:25:05 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:25:05 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:25:05 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:25:05 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:25:05 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:25:05 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:25:05 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:25:06 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:25:06 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:25:07 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:25:07 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:25:07 [main] INFO :: *************Marshall
+2017-12-06 21:25:07 [main] INFO :: *************Marshall_End
+2017-12-06 21:25:07 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:25:07 [main] INFO :: *************Marshall_End
+2017-12-06 21:27:01 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:27:01 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:27:02 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:27:02 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:27:02 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:27:02 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:27:02 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:27:02 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:27:02 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:27:03 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:27:03 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:27:04 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:27:04 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:27:04 [main] INFO :: *************Marshall
+2017-12-06 21:27:04 [main] INFO :: *************Marshall_End
+2017-12-06 21:27:04 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:27:04 [main] INFO :: *************Marshall_End
+2017-12-06 21:39:09 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:39:09 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:39:09 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:39:09 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:39:09 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:39:09 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:39:09 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:39:09 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:39:09 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:39:10 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:39:10 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:39:11 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:39:11 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:39:11 [main] INFO :: *************Marshall
+2017-12-06 21:39:11 [main] INFO :: *************Marshall_End
+2017-12-06 21:39:11 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:39:11 [main] INFO :: *************Marshall_End
+2017-12-06 21:40:00 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:40:00 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:40:00 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:40:00 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:40:00 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:40:00 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:40:00 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:40:00 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:40:00 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:40:01 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:40:01 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:40:02 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:40:02 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:40:02 [main] INFO :: *************Marshall
+2017-12-06 21:40:02 [main] INFO :: *************Marshall_End
+2017-12-06 21:40:02 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:40:02 [main] INFO :: *************Marshall_End
+2017-12-06 21:41:22 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:41:22 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:41:22 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:41:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:41:22 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:41:22 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:41:22 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:41:22 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:41:22 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:41:23 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:41:23 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:41:24 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:41:24 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:41:24 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:41:24 [main] INFO :: *************Marshall_End
+2017-12-06 21:43:06 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:43:06 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:43:07 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:43:07 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:43:07 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:43:07 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:43:07 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:43:07 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:43:07 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:43:08 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:43:08 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:43:08 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:43:09 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:43:09 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:43:09 [main] INFO :: *************Marshall_End
+2017-12-06 21:45:13 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:45:13 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:45:13 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:45:13 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:45:13 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:45:13 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:45:13 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:45:13 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:45:13 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:45:14 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:45:14 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:45:15 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:45:15 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:45:15 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:45:15 [main] INFO :: *************Marshall_End
+2017-12-06 21:47:04 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:47:04 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:47:05 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:47:05 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:47:05 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:47:05 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:47:05 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:47:05 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:47:05 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:47:06 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:47:06 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:47:06 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:47:06 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:47:07 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:47:07 [main] INFO :: *************Marshall_End
+2017-12-06 21:49:03 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:49:03 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:49:04 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:49:04 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:49:04 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:49:04 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:49:04 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:49:04 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:49:04 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:49:05 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:49:05 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:49:05 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:49:06 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:49:06 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:49:06 [main] INFO :: *************Marshall_End
+2017-12-06 21:50:15 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:50:15 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:50:15 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:50:15 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:50:15 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:50:15 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:50:15 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:50:15 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:50:15 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:50:16 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:50:16 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:50:17 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:50:17 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:50:17 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:50:17 [main] INFO :: *************Marshall_End
+2017-12-06 21:51:30 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:51:30 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:51:30 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:51:30 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:51:30 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:51:30 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:51:30 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:51:30 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:51:30 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:51:32 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:51:32 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:51:32 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:51:33 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:51:33 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:51:33 [main] INFO :: *************Marshall_End
+2017-12-06 21:59:00 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:59:00 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:59:01 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:59:01 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:59:01 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:59:01 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:59:01 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:59:01 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:59:01 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:59:02 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:59:02 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:59:02 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:59:02 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:59:03 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:59:03 [main] INFO :: *************Marshall_End
+2017-12-06 21:59:21 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:59:21 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:59:21 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:59:21 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:59:21 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:59:21 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:59:21 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:59:21 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:59:21 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:59:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:59:22 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:59:23 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:59:23 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:59:23 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:59:23 [main] INFO :: *************Marshall_End
+2017-12-06 21:59:29 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 21:59:29 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 21:59:29 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 21:59:29 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:59:29 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 21:59:29 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 21:59:29 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 21:59:29 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 21:59:29 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 21:59:30 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 21:59:30 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 21:59:31 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 21:59:31 [main] INFO :: Databse Loaded successfully
+2017-12-06 21:59:31 [main] INFO :: *************Marshall_tunrs
+2017-12-06 21:59:31 [main] INFO :: *************Marshall_End
+2017-12-06 22:00:35 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:00:35 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:00:35 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:00:36 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:00:36 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:00:36 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:00:36 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:00:36 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:00:36 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:00:37 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:00:37 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:00:37 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:00:37 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:00:38 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:00:38 [main] INFO :: *************Marshall_End
+2017-12-06 22:23:12 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:23:12 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:23:12 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:23:12 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:23:13 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:23:13 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:23:13 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:23:13 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:23:13 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:23:13 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:23:14 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:23:14 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:23:14 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:23:15 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:23:15 [main] INFO :: *************Marshall_End
+2017-12-06 22:24:24 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:24:24 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:24:24 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:24:25 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:24:25 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:24:25 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:24:25 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:24:25 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:24:25 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:24:26 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:24:26 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:24:26 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:24:26 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:24:27 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:24:48 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:24:48 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:24:49 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:24:49 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:24:49 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:24:49 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:24:49 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:24:49 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:24:49 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:24:50 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:24:50 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:24:50 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:24:50 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:24:51 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:24:51 [main] INFO :: *************Marshall_End
+2017-12-06 22:31:46 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:31:46 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:31:47 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:31:47 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:31:47 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:31:47 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:31:47 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:31:47 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:31:47 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:31:48 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:31:48 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:31:49 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:31:49 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:31:49 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:31:49 [main] INFO :: *************Marshall_End
+2017-12-06 22:46:31 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:46:31 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:46:31 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:46:31 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:46:31 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:46:31 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:46:31 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:46:31 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:46:31 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:46:32 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:46:32 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:46:33 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:46:33 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:46:33 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:46:33 [main] INFO :: *************Marshall_End
+2017-12-06 22:50:15 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:50:15 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:50:16 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:50:16 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:50:16 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:50:16 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:50:16 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:50:16 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:50:16 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:50:17 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:50:17 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:50:18 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:50:18 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:50:18 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:50:18 [main] INFO :: *************Marshall_End
+2017-12-06 22:51:46 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:51:46 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:51:47 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:51:47 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:51:47 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:51:47 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:51:47 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:51:47 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:51:47 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:51:48 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:51:48 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:51:49 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:51:49 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:51:49 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:51:49 [main] INFO :: *************Marshall_End
+2017-12-06 22:53:05 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:53:05 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:53:06 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:53:06 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:53:06 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:53:06 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:53:06 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:53:06 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:53:06 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:53:07 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:53:07 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:53:07 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:53:07 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:53:08 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:53:08 [main] INFO :: *************Marshall_End
+2017-12-06 22:54:33 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 22:54:33 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 22:54:33 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 22:54:34 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:54:34 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 22:54:34 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 22:54:34 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 22:54:34 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 22:54:34 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 22:54:35 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 22:54:35 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 22:54:35 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 22:54:35 [main] INFO :: Databse Loaded successfully
+2017-12-06 22:54:36 [main] INFO :: *************Marshall_tunrs
+2017-12-06 22:54:36 [main] INFO :: *************Marshall_End
+2017-12-06 23:01:51 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:01:51 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:01:51 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:01:51 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:01:52 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:01:52 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:01:52 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:01:52 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:01:52 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:01:52 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:01:53 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:01:53 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:01:53 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:01:53 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:01:53 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:01:53 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:01:53 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:01:53 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:03:05 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:03:05 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:03:06 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:03:06 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:03:06 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:03:06 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:03:06 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:03:06 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:03:06 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:03:07 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:03:07 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:03:07 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:03:07 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:03:08 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:03:08 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:03:08 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:03:08 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:03:08 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:04:21 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:04:21 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:04:21 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:04:21 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:04:21 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:04:21 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:04:21 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:04:21 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:04:21 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:04:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:04:22 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:04:23 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:04:23 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:04:23 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:04:23 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:04:23 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:04:23 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:04:23 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:05:43 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:05:43 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:05:43 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:05:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:05:44 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:05:44 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:05:44 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:05:44 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:05:44 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:05:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:05:44 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:05:45 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:05:45 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:05:45 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:05:45 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:05:45 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:05:45 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:05:45 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:07:00 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:07:00 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:07:00 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:07:01 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:07:01 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:07:01 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:07:01 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:07:01 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:07:01 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:07:02 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:07:02 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:07:02 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:07:02 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:07:03 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:07:03 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:07:03 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:07:03 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:07:03 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:08:09 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:08:09 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:08:09 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:08:09 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:08:10 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:08:10 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:08:10 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:08:10 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:08:10 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:08:11 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:08:11 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:08:11 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:08:11 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:08:12 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:08:12 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:08:12 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:08:12 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:08:12 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:08:27 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:08:27 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:08:27 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:08:27 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:08:27 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:08:27 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:08:27 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:08:27 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:08:27 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:08:28 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:08:28 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:08:29 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:08:29 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:08:29 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:08:29 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.player_name)
+2017-12-06 23:08:29 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-06 23:08:29 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.player_name)
+2017-12-06 23:08:29 [main] INFO :: Keine Daten vorhanden
+2017-12-06 23:09:35 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:09:35 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:09:36 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:09:36 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:09:36 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:09:36 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:09:36 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:09:36 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:09:36 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:09:37 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:09:37 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:09:37 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:09:37 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:09:38 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:09:38 [main] INFO :: *************Marshall_End
+2017-12-06 23:09:52 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:09:52 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:09:52 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:09:52 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:09:52 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:09:52 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:09:52 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:09:52 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:09:52 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:09:53 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:09:53 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:09:54 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:09:54 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:09:54 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:09:54 [main] INFO :: *************Marshall_End
+2017-12-06 23:10:20 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:10:20 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:10:21 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:10:21 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:10:21 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:10:21 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:10:21 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:10:21 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:10:21 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:10:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:10:22 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:10:22 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:10:22 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:10:23 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:10:23 [main] INFO :: *************Marshall_End
+2017-12-06 23:18:07 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:18:07 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:18:07 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:18:07 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:18:08 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:18:08 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:18:08 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:18:08 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:18:08 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:18:09 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:18:09 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:18:09 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:18:09 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:18:09 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:18:09 [main] INFO :: *************Marshall_End
+2017-12-06 23:19:01 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:19:01 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:19:01 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:19:01 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:19:01 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:19:01 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:19:01 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:19:01 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:19:01 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:19:02 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:19:02 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:19:03 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:19:03 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:19:03 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:19:03 [main] INFO :: *************Marshall_End
+2017-12-06 23:22:16 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:22:16 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:22:16 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:22:16 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:22:16 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:22:16 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:22:16 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:22:16 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:22:16 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:22:17 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:22:17 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:22:18 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:22:18 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:22:18 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:23:11 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:23:11 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:23:11 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:23:11 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:23:11 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:23:11 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:23:11 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:23:11 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:23:11 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:23:12 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:23:12 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:23:12 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:23:13 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:23:13 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:23:13 [main] INFO :: *************Marshall_End
+2017-12-06 23:25:50 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:25:50 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:25:50 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:25:50 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:25:50 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:25:50 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:25:50 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:25:50 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:25:50 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:25:51 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:25:51 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:25:52 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:25:52 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:25:52 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:25:52 [main] INFO :: *************Marshall_End
+2017-12-06 23:26:12 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:26:12 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:26:13 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:26:13 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:26:13 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:26:13 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:26:13 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:26:13 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:26:13 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:26:14 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:26:14 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:26:14 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:26:14 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:26:15 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:26:15 [main] INFO :: *************Marshall_End
+2017-12-06 23:27:28 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:27:28 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:27:28 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:27:28 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:27:28 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:27:28 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:27:28 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:27:28 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:27:28 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:27:29 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:27:29 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:27:30 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:27:30 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:27:30 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:27:30 [main] INFO :: *************Marshall_End
+2017-12-06 23:52:44 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:52:44 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:52:45 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:52:45 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:52:45 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:52:45 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:52:45 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:52:45 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:52:45 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:52:46 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:52:46 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:52:46 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:52:46 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:52:47 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:52:47 [main] INFO :: *************Marshall_End
+2017-12-06 23:54:49 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:54:49 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:54:50 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:54:50 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:54:50 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:54:50 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:54:50 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:54:50 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:54:50 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:54:51 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:54:51 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:54:51 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:54:51 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:54:52 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:54:52 [main] INFO :: *************Marshall_End
+2017-12-06 23:55:22 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:55:22 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:55:22 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:55:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:55:22 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:55:22 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:55:22 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:55:22 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:55:22 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:55:23 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:55:23 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:55:24 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:55:24 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:55:24 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:55:24 [main] INFO :: *************Marshall_End
+2017-12-06 23:59:37 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-06 23:59:37 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-06 23:59:37 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 23:59:37 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:59:37 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-06 23:59:37 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-06 23:59:37 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-06 23:59:37 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-06 23:59:37 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-06 23:59:38 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-06 23:59:38 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-06 23:59:39 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-06 23:59:39 [main] INFO :: Databse Loaded successfully
+2017-12-06 23:59:39 [main] INFO :: *************Marshall_tunrs
+2017-12-06 23:59:39 [main] INFO :: *************Marshall_End
+2017-12-07 00:03:04 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:03:04 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:03:05 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:03:05 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:03:05 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:03:05 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:03:05 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:03:05 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:03:05 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:03:06 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:03:06 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:03:06 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:03:07 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:03:07 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:03:07 [main] INFO :: *************Marshall_End
+2017-12-07 00:03:29 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:03:29 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:03:29 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:03:29 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:03:29 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:03:29 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:03:29 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:03:29 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:03:29 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:03:30 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:03:30 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:03:31 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:03:31 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:03:31 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:03:31 [main] INFO :: *************Marshall_End
+2017-12-07 00:04:52 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:04:52 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:04:53 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:04:53 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:04:53 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:04:53 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:04:53 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:04:53 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:04:53 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:04:54 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:04:54 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:04:55 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:04:55 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:04:55 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:04:55 [main] INFO :: *************Marshall_End
+2017-12-07 00:05:43 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:05:43 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:05:44 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:05:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:05:44 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:05:44 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:05:44 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:05:44 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:05:44 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:05:45 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:05:45 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:05:46 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:05:46 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:05:46 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:05:46 [main] INFO :: *************Marshall_End
+2017-12-07 00:06:24 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:06:24 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:06:24 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:06:25 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:06:25 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:06:25 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:06:25 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:06:25 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:06:25 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:06:26 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:06:26 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:06:26 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:06:26 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:06:26 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:06:27 [main] INFO :: *************Marshall_End
+2017-12-07 00:06:57 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:06:57 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:06:57 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:06:57 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:06:57 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:06:57 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:06:57 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:06:57 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:06:57 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:06:58 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:06:58 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:06:59 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:06:59 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:06:59 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:06:59 [main] INFO :: *************Marshall_End
+2017-12-07 00:08:06 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:08:06 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:08:06 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:08:06 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:08:06 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:08:06 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:08:06 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:08:06 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:08:06 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:08:07 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:08:07 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:08:08 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:08:08 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:08:08 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:08:08 [main] INFO :: *************Marshall_End
+2017-12-07 00:08:31 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:08:31 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:08:31 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:08:31 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:08:31 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:08:31 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:08:31 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:08:31 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:08:31 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:08:32 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:08:32 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:08:33 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:08:33 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:08:33 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:08:33 [main] INFO :: *************Marshall_End
+2017-12-07 00:08:41 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:08:41 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:08:42 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:08:42 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:08:42 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:08:42 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:08:42 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:08:42 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:08:42 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:08:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:08:43 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:08:44 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:08:44 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:08:44 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:08:44 [main] INFO :: *************Marshall_End
+2017-12-07 00:10:11 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:10:11 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:10:12 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:10:12 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:10:12 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:10:12 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:10:12 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:10:12 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:10:12 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:10:13 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:10:13 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:10:13 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:10:14 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:10:14 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:10:14 [main] INFO :: *************Marshall_End
+2017-12-07 00:10:43 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:10:43 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:10:43 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:10:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:10:43 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:10:43 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:10:43 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:10:43 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:10:43 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:10:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:10:45 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:10:45 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:10:45 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:10:46 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:10:46 [main] INFO :: *************Marshall_End
+2017-12-07 00:11:17 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:11:17 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:11:17 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:11:17 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:11:17 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:11:17 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:11:17 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:11:17 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:11:17 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:11:18 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:11:18 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:11:19 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:11:19 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:11:19 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:11:19 [main] INFO :: *************Marshall_End
+2017-12-07 00:11:56 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:11:56 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:11:56 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:11:57 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:11:57 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:11:57 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:11:57 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:11:57 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:11:57 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:11:58 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:11:58 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:11:58 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:11:58 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:11:59 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:11:59 [main] INFO :: *************Marshall_End
+2017-12-07 00:13:40 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:13:40 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:13:41 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:13:41 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:13:41 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:13:41 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:13:41 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:13:41 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:13:41 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:13:42 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:13:42 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:13:42 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:13:42 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:13:43 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:13:43 [main] INFO :: *************Marshall_End
+2017-12-07 00:14:22 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:14:22 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:14:22 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:14:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:14:22 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:14:22 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:14:22 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:14:22 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:14:22 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:14:23 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:14:23 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:14:24 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:14:24 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:14:24 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:14:24 [main] INFO :: *************Marshall_End
+2017-12-07 00:15:11 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:15:11 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:15:11 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:15:11 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:15:12 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:15:12 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:15:12 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:15:12 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:15:12 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:15:13 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:15:13 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:15:13 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:15:13 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:15:14 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:15:14 [main] INFO :: *************Marshall_End
+2017-12-07 00:17:11 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:17:11 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:17:11 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:17:11 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:17:11 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:17:11 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:17:11 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:17:11 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:17:11 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:17:12 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:17:12 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:17:13 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:17:13 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:17:13 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:17:13 [main] INFO :: *************Marshall_End
+2017-12-07 00:18:31 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:18:31 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:18:31 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:18:31 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:18:31 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:18:31 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:18:31 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:18:31 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:18:31 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:18:32 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:18:33 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:18:33 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:18:33 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:18:33 [main] INFO :: alex
+2017-12-07 00:18:33 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:18:34 [main] INFO :: *************Marshall_End
+2017-12-07 00:18:42 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:18:42 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:18:43 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:18:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:18:43 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:18:43 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:18:43 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:18:43 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:18:43 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:18:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:18:44 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:18:45 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:18:45 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:18:45 [main] INFO :: alex
+2017-12-07 00:18:45 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:18:45 [main] INFO :: *************Marshall_End
+2017-12-07 00:19:26 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:19:26 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:19:26 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:19:26 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:19:26 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:19:26 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:19:26 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:19:26 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:19:26 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:19:27 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:19:27 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:19:28 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:19:28 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:19:28 [main] INFO :: alex
+2017-12-07 00:19:28 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:19:28 [main] INFO :: *************Marshall_End
+2017-12-07 00:19:56 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:19:56 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:19:56 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:19:56 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:19:57 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:19:57 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:19:57 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:19:57 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:19:57 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:19:58 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:19:58 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:19:58 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:19:58 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:19:59 [main] INFO :: alex
+2017-12-07 00:19:59 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:19:59 [main] INFO :: *************Marshall_End
+2017-12-07 00:20:38 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:20:38 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:20:38 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:20:38 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:20:38 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:20:38 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:20:38 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:20:38 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:20:38 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:20:39 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:20:39 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:20:40 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:20:40 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:20:40 [main] INFO :: Keine Daten vorhanden
+2017-12-07 00:21:07 [main] INFO :: 2
+2017-12-07 00:21:07 [main] INFO :: 1
+2017-12-07 00:21:07 [main] INFO :: 1
+2017-12-07 00:21:07 [main] INFO :: 2
+2017-12-07 00:21:44 [main] INFO :: 2
+2017-12-07 00:21:44 [main] INFO :: 0
+2017-12-07 00:21:44 [main] INFO :: 3
+2017-12-07 00:21:44 [main] INFO :: 0
+2017-12-07 00:21:45 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-07 00:21:45 [main] ERROR:: database is locked
+2017-12-07 00:22:08 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:22:08 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:22:08 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:22:08 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:22:09 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:22:09 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:22:09 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:22:09 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:22:09 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:22:10 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:22:10 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:22:10 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:22:10 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:22:11 [main] INFO :: Keine Daten vorhanden
+2017-12-07 00:22:34 [main] INFO :: 2
+2017-12-07 00:22:34 [main] INFO :: 1
+2017-12-07 00:22:34 [main] INFO :: 1
+2017-12-07 00:22:34 [main] INFO :: 2
+2017-12-07 00:22:55 [main] INFO :: 2
+2017-12-07 00:22:55 [main] INFO :: 1
+2017-12-07 00:22:55 [main] INFO :: 2
+2017-12-07 00:22:55 [main] INFO :: 0
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:22:56 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:23:31 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:23:31 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:23:31 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:23:31 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:23:31 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:23:31 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:23:31 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:23:31 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:23:31 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:23:32 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:23:32 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:23:33 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:23:33 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:23:33 [main] INFO :: Keine Daten vorhanden
+2017-12-07 00:24:00 [main] INFO :: 2
+2017-12-07 00:24:00 [main] INFO :: 1
+2017-12-07 00:24:00 [main] INFO :: 1
+2017-12-07 00:24:00 [main] INFO :: 2
+2017-12-07 00:24:33 [main] INFO :: 2
+2017-12-07 00:24:33 [main] INFO :: 0
+2017-12-07 00:24:33 [main] INFO :: 3
+2017-12-07 00:24:33 [main] INFO :: 0
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 5
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 6
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 7
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:33 [main] INFO :: Die Zeile ist jetzt: 8
+2017-12-07 00:24:35 [main] INFO :: Speiler_1 row: 2
+2017-12-07 00:24:35 [main] INFO :: Speiler_1 col: 1
+2017-12-07 00:24:39 [main] INFO :: Speiler_2 row: 7
+2017-12-07 00:24:39 [main] INFO :: Speiler_2 col: 8
+2017-12-07 00:24:42 [main] INFO :: Speiler_1 row: 3
+2017-12-07 00:24:42 [main] INFO :: Speiler_1 col: 1
+2017-12-07 00:24:45 [main] INFO :: Speiler_2 row: 6
+2017-12-07 00:24:45 [main] INFO :: Speiler_2 col: 8
+2017-12-07 00:24:50 [main] INFO :: Speiler_1 row: 3
+2017-12-07 00:24:50 [main] INFO :: Speiler_1 col: 2
+2017-12-07 00:24:55 [main] INFO :: Speiler_2 row: 6
+2017-12-07 00:24:55 [main] INFO :: Speiler_2 col: 7
+2017-12-07 00:25:03 [main] INFO :: Speiler_1 row: 3
+2017-12-07 00:25:03 [main] INFO :: Speiler_1 col: 3
+2017-12-07 00:25:04 [main] INFO :: Speiler_2 row: 6
+2017-12-07 00:25:04 [main] INFO :: Speiler_2 col: 6
+2017-12-07 00:25:05 [main] INFO :: Speiler_1 row: 4
+2017-12-07 00:25:05 [main] INFO :: Speiler_1 col: 3
+2017-12-07 00:25:05 [main] INFO :: Zeile: 4
+2017-12-07 00:25:05 [main] INFO :: Spalte3
+2017-12-07 00:25:05 [main] INFO :: Das Feld ist : w
+2017-12-07 00:25:44 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:25:44 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:25:44 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:25:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:25:44 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:25:44 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:25:44 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:25:44 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:25:44 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:25:45 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:25:45 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:25:46 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:25:46 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:25:46 [main] INFO :: Keine Daten vorhanden
+2017-12-07 00:26:29 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:26:29 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:26:29 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:26:29 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:26:29 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:26:29 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:26:29 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:26:29 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:26:29 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:26:30 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:26:30 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:26:31 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:26:31 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:26:31 [main] INFO :: alex
+2017-12-07 00:26:31 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:26:31 [main] INFO :: *************Marshall_End
+2017-12-07 00:27:48 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:27:48 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:27:48 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:27:48 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:27:48 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:27:48 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:27:48 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:27:48 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:27:48 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:27:49 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:27:49 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:27:50 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:27:50 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:27:50 [main] INFO :: alex
+2017-12-07 00:27:50 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:27:50 [main] INFO :: *************Marshall_End
+2017-12-07 00:28:31 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:28:31 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:28:31 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:28:31 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:28:32 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:28:32 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:28:32 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:28:32 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:28:32 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:28:33 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:28:33 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:28:33 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:28:33 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:28:34 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:28:34 [main] INFO :: *************Marshall_End
+2017-12-07 00:31:00 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:31:00 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:31:00 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:31:00 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:31:00 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:31:00 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:31:00 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:31:00 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:31:00 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:31:01 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:31:01 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:31:02 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:31:02 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:31:02 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:31:02 [main] INFO :: *************Marshall_End
+2017-12-07 00:31:17 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:31:17 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:31:17 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:31:17 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:31:17 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:31:17 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:31:17 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:31:17 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:31:17 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:31:18 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:31:18 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:31:19 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:31:19 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:31:19 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:31:19 [main] INFO :: *************Marshall_End
+2017-12-07 00:34:43 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:34:43 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:34:43 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:34:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:34:44 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:34:44 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:34:44 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:34:44 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:34:44 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:34:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:34:45 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:34:45 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:34:45 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:34:45 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:34:46 [main] INFO :: *************Marshall_End
+2017-12-07 00:34:57 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:34:57 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:34:57 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:34:57 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:34:58 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:34:58 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:34:58 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:34:58 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:34:58 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:34:58 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:34:59 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:34:59 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:34:59 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:34:59 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:34:59 [main] INFO :: *************Marshall_End
+2017-12-07 00:35:22 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:35:22 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:35:22 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:35:22 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:35:22 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:35:22 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:35:22 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:35:22 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:35:22 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:35:23 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:35:23 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:35:24 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:35:24 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:35:24 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:35:24 [main] INFO :: *************Marshall_End
+2017-12-07 00:37:00 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:37:00 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:37:00 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:37:00 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:37:00 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:37:00 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:37:00 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:37:00 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:37:00 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:37:01 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:37:01 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:37:02 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:37:02 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:37:02 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:37:02 [main] INFO :: *************Marshall_End
+2017-12-07 00:37:23 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:37:23 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:37:23 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:37:23 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:37:23 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:37:23 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:37:23 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:37:23 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:37:23 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:37:24 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:37:24 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:37:25 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:37:25 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:37:25 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:37:25 [main] INFO :: *************Marshall_End
+2017-12-07 00:39:42 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:39:42 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:39:42 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:39:43 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:39:43 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:39:43 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:39:43 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:39:43 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:39:43 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:39:44 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:39:44 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:39:44 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:39:44 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:39:45 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:39:45 [main] INFO :: *************Marshall_End
+2017-12-07 00:42:08 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:42:08 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:42:08 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:42:08 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:42:08 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:42:08 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:42:08 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:42:08 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:42:08 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:42:09 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:42:09 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:42:10 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:42:10 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:42:10 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:42:10 [main] INFO :: *************Marshall_End
+2017-12-07 00:46:58 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:46:58 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:46:59 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:46:59 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:46:59 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:46:59 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:46:59 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:46:59 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:46:59 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:47:00 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:47:00 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:47:00 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:47:01 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:47:01 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:47:01 [main] INFO :: *************Marshall_End
+2017-12-07 00:47:24 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:47:24 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:47:24 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:47:24 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:47:25 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:47:25 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:47:25 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:47:25 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:47:25 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:47:25 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:47:26 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:47:26 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:47:26 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:47:26 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:47:26 [main] INFO :: *************Marshall_End
+2017-12-07 00:50:26 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 00:50:26 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 00:50:26 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 00:50:26 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:50:26 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 00:50:26 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 00:50:26 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 00:50:26 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 00:50:26 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 00:50:27 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 00:50:27 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 00:50:28 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 00:50:28 [main] INFO :: Databse Loaded successfully
+2017-12-07 00:50:28 [main] INFO :: *************Marshall_tunrs
+2017-12-07 00:50:28 [main] INFO :: *************Marshall_End
+2017-12-07 01:01:02 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 01:01:02 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 01:01:02 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 01:01:02 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 01:01:02 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 01:01:02 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 01:01:02 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 01:01:02 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 01:01:02 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 01:01:03 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 01:01:03 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 01:01:04 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 01:01:04 [main] INFO :: Databse Loaded successfully
+2017-12-07 01:01:04 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-07 01:01:04 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turns0_.Player_name)
+2017-12-07 01:01:04 [main] WARN :: SQL Error: 0, SQLState: null
+2017-12-07 01:01:04 [main] ERROR:: [SQLITE_ERROR] SQL error or missing database (no such column: turn0_.Player_name)
+2017-12-07 01:01:04 [main] INFO :: Keine Daten vorhanden
+2017-12-07 01:03:18 [main] INFO :: HHH000412: Hibernate Core {5.2.11.Final}
+2017-12-07 01:03:18 [main] INFO :: HHH000206: hibernate.properties not found
+2017-12-07 01:03:18 [main] INFO :: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 01:03:19 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 01:03:19 [main] WARN :: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 01:03:19 [main] INFO :: HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:findnbribe.db]
+2017-12-07 01:03:19 [main] INFO :: HHH10001001: Connection properties: {user=, password=****}
+2017-12-07 01:03:19 [main] INFO :: HHH10001003: Autocommit mode: false
+2017-12-07 01:03:19 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-07 01:03:20 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2017-12-07 01:03:20 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-07 01:03:20 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 01:03:20 [main] INFO :: Databse Loaded successfully

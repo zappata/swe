@@ -3,20 +3,17 @@ package database;
 import model.*;
 import rule.*;
 import interfaces.*;
+import jaxb.PlayerJAXB;
+import jaxb.TurnJAXB;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import org.apache.log4j.BasicConfigurator;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.query.Query;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -65,7 +62,7 @@ public class Main {
 
       session = sessionFactory.openSession();
 
-      // Retrieving datas
+      // ***************************** Retrieving data *****************
       try {
         List<Field> felder = session.createNamedQuery("get_field", Field.class)
             .setParameter("type", "w").getResultList();
@@ -80,23 +77,35 @@ public class Main {
 
         System.out.println("Der Gewinner ist " + winners.getName());
 
+        PlayerJAXB p = new PlayerJAXB();
+        p.marshell(winners);
+
+
         Player result = session.createNamedQuery("get_player", Player.class)
-            .setParameter("name", "Alex").getSingleResult();
+            .setParameter("name", "alex").getSingleResult();
 
-        System.out.println("Der Spieler ist " + result.getStatus());
+        if (result != null) {
+          System.out.println("Der Spieler ist " + result.getStatus());
+        }
 
-        int from = 9;
+        int from = 0;
         int til = 21;
 
         List<Turn> all_turns = session.createNamedQuery("get_game_rounds", Turn.class)
             .setParameter("from", from).setParameter("til", til).getResultList();
-
+        
+        TurnJAXB tJ = new TurnJAXB();
+        tJ.marshell(all_turns);
+        
         for (Turn t : all_turns) {
           System.out.println("Die Richtung war " + t.getDirection());
+          
         }
       } catch (Exception e) {
-        logger.error("Keine Daten vorhanden");
+        logger.info("Keine Daten vorhanden");
       }
+
+      // ***************************** Retrieving data *****************
 
       transaction = session.beginTransaction();
 
@@ -217,7 +226,7 @@ public class Main {
               player_1_column--;
               break;
           }
-        } else {
+        } else if (j % 2 != 0) {
           switch (direction) {
             case 1:
               player_2_row++;
@@ -235,7 +244,7 @@ public class Main {
         }
 
         if (j % 2 == 0) {
-          turn = new Turn(j, ((j + 1) / 2), player_1_row, player_1_column, direction, player);
+          turn = new Turn(j, ((j + 1) / 2), player_1_row, player_1_column, direction, players.get(0));
           players.get(0).getTurns().add(turn);
           session.persist(turn);
           logger.info("Speiler_1 row: " + player_1_row);
@@ -246,8 +255,8 @@ public class Main {
             break;
           }
 
-        } else {
-          turn = new Turn(j, ((j + 1) / 2), player_2_row, player_2_column, direction, player);
+        } else if (j % 2 != 0) {
+          turn = new Turn(j, ((j + 1) / 2), player_2_row, player_2_column, direction, players.get(1));
           players.get(1).getTurns().add(turn);
           session.persist(turn);
           logger.info("Speiler_2 row: " + player_2_row);
