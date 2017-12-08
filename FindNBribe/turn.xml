@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<turnList>
+<player>
+    <id>0</id>
+    <number>0</number>
     <turns>
         <column>8</column>
         <count>1</count>
@@ -64,4 +66,4 @@
         <player_name>hamed</player_name>
         <row>4</row>
     </turns>
-</turnList>
+</player>

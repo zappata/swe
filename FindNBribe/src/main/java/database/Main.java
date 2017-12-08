@@ -44,6 +44,7 @@ public class Main {
       Map map = null;
       Player player = null;
 
+      //Players List (2)
       List<Player> players = new ArrayList<Player>();
 
       int direction = 0;
@@ -64,39 +65,49 @@ public class Main {
 
       // ***************************** Retrieving data *****************
       try {
+        
+        //Get the Field by Typ(water) from a play
         List<Field> felder = session.createNamedQuery("get_field", Field.class)
             .setParameter("type", "w").getResultList();
 
+        // Display the result
         for (Field feld : felder) {
           System.out.println(
               "Die Reihe ist " + feld.getRow() + " und die Spalte ist " + feld.getColumn());
         }
 
+        // Get the Winner of a Play
         Player winners = session.createNamedQuery("get_winners", Player.class)
             .setParameter("status", "winner").getSingleResult();
 
         System.out.println("Der Gewinner ist " + winners.getName());
 
+        //Marshalling the Winner in Xml 
         PlayerJAXB p = new PlayerJAXB();
         p.marshell(winners);
 
 
+        // Get the result of a player by name
         Player result = session.createNamedQuery("get_player", Player.class)
             .setParameter("name", "alex").getSingleResult();
-
+        // Display the result
         if (result != null) {
           System.out.println("Der Spieler ist " + result.getStatus());
         }
-
+        
+        // limits for Turns (von welche Spielzug bis welchem)
         int from = 0;
         int til = 21;
 
+        // Get the Result in a List
         List<Turn> all_turns = session.createNamedQuery("get_game_rounds", Turn.class)
             .setParameter("from", from).setParameter("til", til).getResultList();
         
+        //Marschelling the Turn List
         TurnJAXB tJ = new TurnJAXB();
         tJ.marshell(all_turns);
         
+        // Display the Turns
         for (Turn t : all_turns) {
           System.out.println("Die Richtung war " + t.getDirection());
           
@@ -116,9 +127,11 @@ public class Main {
         player = new Player(i, name, (i + 1), "winner");
         map = new Map(i, player);
 
+        // save player and map
         session.persist(player);
         session.persist(map);
 
+        // Map Generation
         for (int j = 1; j < 5; j++) {
           for (int k = 1; k < 9; k++) {
             type = "";
@@ -128,41 +141,43 @@ public class Main {
                   + ". Feldes ein: Achtung zulässige Eingabe sind w, b, g");
               type = br.readLine();
             } while (!type.equals("w") && !type.equals("b") && !type.equals("g"));
-
+            // create a new field, assign it to the map and save it
             field = new Field(id, type, j, k, map);
             map.getFields().add(field);
             session.persist(field);
+            
             id++;
           }
         }
 
+        //Set the castle row
         System.out.println("Geben Sie die Reihe des Schlosses an: ");
         type = br.readLine();
         map.setCastle_row(Integer.parseInt(type));
-
+        
+        //Set the castle column
         System.out.println("Geben Sie die Spalte des Schlosses an: ");
-
         type = br.readLine();
-
         map.setCastle_column(Integer.parseInt(type));
 
 
-
+        // Check if Client set the Treasure
         if (!rules.ControllServerDataGeneration(map)) {
           player.setStatus("loser");
         }
 
-
+        //set the treasure
         map.setTreasure_row(2);
         map.setTreasure_column(1);
 
+        //Check the Conditions and the rules of the Map
         if (!rules.ControllMapSize(map) || !rules.ControllMapConditions(map)
             || !rules.ControllMapWaterCondition(map) || !rules.ControllTreasureCastlePlace(map)
             || !rules.ControllTreasureCastleWaterPlace(map)) {
           player.setStatus("loser");
         }
 
-
+        // update player and map
         players.add(player);
         session.update(player);
         session.update(map);
@@ -177,18 +192,23 @@ public class Main {
       Map fullmap = new Map();
 
       List<Map> maps = session.createNamedQuery("get_maps", Map.class).getResultList();
-
+      
+      // Merge the maps to one map
       for (int i = 0; i < 2; i++) {
         if (i == 1) {
+          //Set Treasures and castles
           maps.get(i).setCastle_row(maps.get(i).getCastle_row() + 4);
           maps.get(i).setCastle_column(maps.get(i).getCastle_column() + 4);
           maps.get(i).setTreasure_row(maps.get(i).getTreasure_row() + 4);
           maps.get(i).setTreasure_column(maps.get(i).getTreasure_column() + 4);
+
+          //Set the Rows up 8
           for (int k = 0; k < 32; k++) {
             maps.get(i).getFields().get(k).setRow(maps.get(i).getFields().get(k).getRow() + 4);
             logger.info("Die Zeile ist jetzt: " + maps.get(i).getFields().get(k).getRow());
           }
         }
+        //Set the Fields
         for (int j = 0; j < maps.get(i).getFields().size(); j++) {
           fullmap.getFields().add(maps.get(i).getFields().get(j));
         }
@@ -196,7 +216,7 @@ public class Main {
 
       transaction = session.beginTransaction();
 
-
+      //Player make their Turns
       for (int j = 0; j < 20; j++) {
         if (players.get(0).getStatus().equals("loser")
             || players.get(1).getStatus().equals("loser")) {
@@ -210,7 +230,7 @@ public class Main {
           System.out.println("Zulässige Eingaben sind 1 - 4");
           j--;
         }
-
+        // Set the row and column of Player Position based on direction
         if (j % 2 == 0) {
           switch (direction) {
             case 1:
@@ -242,14 +262,16 @@ public class Main {
               break;
           }
         }
-
+        
+        //Save the Turn of the Players (j % 2 == 0 -> first player)
         if (j % 2 == 0) {
           turn = new Turn(j, ((j + 1) / 2), player_1_row, player_1_column, direction, players.get(0));
           players.get(0).getTurns().add(turn);
           session.persist(turn);
           logger.info("Speiler_1 row: " + player_1_row);
           logger.info("Speiler_1 col: " + player_1_column);
-
+          
+          //Check the Rules of Turns
           if (!rules.ControllPlayerEntry(turn, fullmap) || !rules.ConrollRounds(turn)) {
             players.get(0).setStatus("loser");
             break;
@@ -262,6 +284,7 @@ public class Main {
           logger.info("Speiler_2 row: " + player_2_row);
           logger.info("Speiler_2 col: " + player_2_column);
 
+          //Check the Rules of Turns
           if (!rules.ControllPlayerEntry(turn, fullmap) || !rules.ConrollRounds(turn)) {
             players.get(1).setStatus("loser");
             break;

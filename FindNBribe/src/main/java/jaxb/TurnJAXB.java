@@ -7,25 +7,30 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import model.Player;
 import model.Turn;
-import model.TurnList;
 
 public class TurnJAXB {
 
   public void marshell(List<Turn> turns) {
     try {
 
-      TurnList list = new TurnList();
-      list.setTurns(turns);
+      Player player = new Player();
+      player.setTurns(turns);
       for (int i = 0; i < turns.size(); i++) {
-        list.getTurns().get(i).setPlayer_name(list.getTurns().get(i).getPlayer().getName());
-        list.getTurns().get(i).setPlayer(null);
+        //Set the Player_name of Turns
+        player.getTurns().get(i).setPlayer_name(player.getTurns().get(i).getPlayer().getName());
+        player.getTurns().get(i).setPlayer(null);
       }
 
-      JAXBContext j_context = JAXBContext.newInstance(TurnList.class);
+      // Create a new new Instance of class Player(Liste von Turns) for JAXB
+      JAXBContext j_context = JAXBContext.newInstance(Player.class);
+      // Create a marshaller
       Marshaller marsheller = j_context.createMarshaller();
+      // declare the format of the object output
       marsheller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-      marsheller.marshal(list, System.out);
-      marsheller.marshal(list, new File("turn.xml"));
+      // Console Output
+      marsheller.marshal(player, System.out);
+      // File Output
+      marsheller.marshal(player, new File("turn.xml"));
 
     } catch (Exception e) {
       System.out.println(e.getMessage());
