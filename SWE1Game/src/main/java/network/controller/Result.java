@@ -22,18 +22,22 @@ public class Result {
   @RequestMapping("/result")
   public String getResult() {
 
+    //Configuration of Database
     configureSessionFactory();
     Session session = null;
     String result = "";
     
+    //Connection to Database
     session = sessionFactory.openSession();
 
+    //Get the Winner from Database
     Player winner = session.createNamedQuery("get_winners", Player.class)
         .setParameter("status", "winner").getSingleResult();
 
     session.flush();
     session.close();
     
+    //Display the result
     if (winner != null) {
       result = "Der Spieler: " + winner.getName() + " ist der Gewinner";
     } else {

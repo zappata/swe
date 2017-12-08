@@ -24,17 +24,28 @@ public class AssignUser {
 
   @RequestMapping("/assign")
   public String addUser() {
+    
+    //Configuration of Database
     configureSessionFactory();
     Session session = null;
+    
+    //Connection to Database
     session = sessionFactory.openSession();
 
+    //Get the players
     List<Player> players = session.createNamedQuery("get_players", Player.class).getResultList();
 
+    //Check the Players count
     if (players.size() < 2) {
       Player new_player = new Player();
       session.persist(new_player);
-      //Give the information of Player
-
+      
+      /*Give some information of Player
+       * 
+       * 
+       */
+      
+      //Save the information
       session.update(new_player);
       session.flush();
       session.close();
