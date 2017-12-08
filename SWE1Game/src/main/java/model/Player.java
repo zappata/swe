@@ -13,8 +13,12 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 
-@NamedQueries({@NamedQuery(name = "get_winners", query = "from Player where status = :status"),
-    @NamedQuery(name = "get_player", query = "from Player where name = :name")})
+@NamedQueries({
+    @NamedQuery(name = "get_winners", query = "from Player where status = :status"),
+    @NamedQuery(name = "get_player", query = "from Player where name = :name"),
+    @NamedQuery(name = "get_players", query = "from Player")
+  }
+)
 
 
 @Entity
