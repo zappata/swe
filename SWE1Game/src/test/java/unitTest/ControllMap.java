@@ -29,7 +29,5 @@ public class ControllMap {
     Assert.assertEquals(map.getPlayer(), player);
     Assert.assertTrue(rules.ControllMapSize(map));
     Assert.assertTrue(rules.ControllMapWaterCondition(map));
-
-
   }
 }

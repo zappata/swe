@@ -53,10 +53,5 @@ public class ControllMapGneration {
     }
     
     Assert.assertEquals(costs[0][0], typ);
-    
-    steps = ki.steps(player, costs, steps);
-    
-    System.out.println("hier");
-
   }
 }

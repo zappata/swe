@@ -1,4 +1,4 @@
-package main;
+package view;
 
 import model.*;
 import rule.*;
@@ -96,35 +96,39 @@ public class Main {
           player.setStatus("loser");
         }
 
-        // Set the castle row
-        System.out.println("Geben Sie die Reihe des Schlosses an: ");
-        type = br.readLine();
-        map.setCastle_row(Integer.parseInt(type));
+        try {
 
-        // Set the castle column
-        System.out.println("Geben Sie die Spalte des Schlosses an: ");
-        type = br.readLine();
-        map.setCastle_column(Integer.parseInt(type));
+          // Set the castle row
+          System.out.println("Geben Sie die Reihe des Schlosses an: ");
+          type = br.readLine();
+          map.setCastle_row(Integer.parseInt(type));
 
-        // set the row of treasure
-        System.out.println("Geben Sie die Reihe des Schatzes an: ");
-        type = br.readLine();
-        map.setTreasure_row(Integer.parseInt(type));
+          // Set the castle column
+          System.out.println("Geben Sie die Spalte des Schlosses an: ");
+          type = br.readLine();
+          map.setCastle_column(Integer.parseInt(type));
 
-        // set the column of treasure
-        System.out.println("Geben Sie die Spalte des Schatzes an: ");
-        type = br.readLine();
-        map.setTreasure_column(Integer.parseInt(type));
+          // set the row of treasure
+          System.out.println("Geben Sie die Reihe des Schatzes an: ");
+          type = br.readLine();
+          map.setTreasure_row(Integer.parseInt(type));
 
-        // set the start_row of player
-        System.out.println("Geben Sie die Reihe des Spielers an: ");
-        type = br.readLine();
-        player.setRow(Integer.parseInt(type));
+          // set the column of treasure
+          System.out.println("Geben Sie die Spalte des Schatzes an: ");
+          type = br.readLine();
+          map.setTreasure_column(Integer.parseInt(type));
 
-        // set the start_column of player
-        System.out.println("Geben Sie die Spalte des Spielers an: ");
-        type = br.readLine();
-        player.setColumn(Integer.parseInt(type) + p2);
+          // set the start_row of player
+          System.out.println("Geben Sie die Reihe des Spielers an: ");
+          type = br.readLine();
+          player.setRow(Integer.parseInt(type));
+
+          // set the start_column of player
+          System.out.println("Geben Sie die Spalte des Spielers an: ");
+          type = br.readLine();
+          player.setColumn(Integer.parseInt(type) + p2);
+        } catch (Exception e) {
+        }
 
         // Check the Conditions and the rules of the Map
         if (!rules.ControllMapSize(map) || !rules.ControllMapConditions(map)
@@ -178,20 +182,21 @@ public class Main {
 
         }
 
-        //Set the position of treaure, castle and player on the view map
+        // Set the position of treaure, castle and player on the view map
         mapView[players.get(0).getRow() - 1][players.get(0).getColumn() - 1] = "P1";
         mapView[maps.get(0).getTreasure_row() - 1][maps.get(0).getTreasure_column() - 1] = "T1";
         mapView[maps.get(0).getCastle_row() - 1][maps.get(0).getCastle_column() - 1] = "C1";
 
         mapView[players.get(1).getRow() - 1][players.get(1).getColumn() - 1] = "P2";
-        
+
         logger.debug("T_Row: " + maps.get(1).getTreasure_row());
         logger.debug("T_Column: " + maps.get(1).getTreasure_column());
-        
-        mapView[((maps.get(1).getTreasure_row()) - 1)][((maps.get(1).getTreasure_column()) - 1)] = "T2";
+
+        mapView[((maps.get(1).getTreasure_row()) - 1)][((maps.get(1).getTreasure_column()) - 1)] =
+            "T2";
         mapView[((maps.get(1).getCastle_row()) - 1)][((maps.get(1).getCastle_column()) - 1)] = "C2";
 
-        //show the map
+        // show the map
         for (int j1 = 0; j1 < 8; j1++) {
           for (int k = 0; k < 8; k++) {
             System.out.print(mapView[j1][k] + "    ");

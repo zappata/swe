@@ -3,8 +3,8 @@ package controller;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import main.Main;
 import model.*;
+import view.Main;
 
 public class MapGeneration {
 
