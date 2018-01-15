@@ -52,10 +52,6 @@ public class Map {
   public Map(int id, Player player) {
     setId(id);
     setPlayer(player);
-    setCastle_row(0);
-    setCastle_column(0);
-    setTreasure_column(0);
-    setTreasure_row(0);
   }
 
   @XmlElement

@@ -9,7 +9,7 @@ public class TurnTest {
   @Test
   public void createTurn() {
     
-    Turn turn = new Turn(1, 24, 1, 1, 1, null);
+    Turn turn = new Turn(1, 24, 1, 1, null);
     
     Assert.assertEquals(24, turn.getCount());
   }

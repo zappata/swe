@@ -16,8 +16,8 @@ public class ControllMap {
     MapGeneration mapGeneration = new MapGeneration(); 
     IRules rules = new Rules();
     
-    Player player = playerGeneration.generatePlayer("hamed");
-    Map map = mapGeneration.generateMap(player);
+    Player player = playerGeneration.generatePlayer("hamed", 1, 1);
+    Map map = mapGeneration.generateMap(player, 1);
 
     for (int i = 0; i < map.getFields().size(); i++) {
       System.out.print(map.getFields().get(i).getType() + " ");

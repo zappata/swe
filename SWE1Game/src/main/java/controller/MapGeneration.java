@@ -1,8 +1,9 @@
 package controller;
 
+import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import database.Main;
+import main.Main;
 import model.*;
 
 public class MapGeneration {
@@ -21,12 +22,12 @@ public class MapGeneration {
 
   private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
-  public Map generateMap(Player player) {
+  public Map generateMap(Player player, int idPlayer) {
     Map map;
 
     do {
 
-      map = new Map(0, player);
+      map = new Map(idPlayer, player);
       id = 0;
       mount = 0;
       gras = 0;
@@ -107,6 +108,33 @@ public class MapGeneration {
     } while (mount < 3 || waterFields < 4 || gras < 5);
 
     return map;
+  }
+  
+  public Map mergeMaps(List<Map> maps) {
+    
+    Map fullmap = new Map();
+    
+    // Merge the maps to one map
+    for (int i = 0; i < 2; i++) {
+      if (i == 1) {
+        //Set Treasures and castles
+        maps.get(i).setCastle_row(maps.get(i).getCastle_row() + 4);
+        maps.get(i).setTreasure_row(maps.get(i).getTreasure_row() + 4);
+
+        //Set the Rows up 8
+        for (int k = 0; k < 32; k++) {
+          maps.get(i).getFields().get(k).setRow(maps.get(i).getFields().get(k).getRow() + 4);
+          logger.info("Die Zeile ist jetzt: " + maps.get(i).getFields().get(k).getRow());
+        }
+      }
+      
+      //Set the Fields
+      for (int j = 0; j < maps.get(i).getFields().size(); j++) {
+        fullmap.getFields().add(maps.get(i).getFields().get(j));
+      }
+    }
+    
+    return fullmap;
   }
 
 }

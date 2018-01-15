@@ -16,7 +16,7 @@ public class ControllEntryTest {
     Map map = new Map();
     Field field = new Field(1, "b", 1, 1, map);
     map.setField(field);
-    Turn turn = new Turn(1, 1, 1, 1, 1, null);
+    Turn turn = new Turn(1, 1, 1, 1, null);
     IRules rules = new Rules();
 
     

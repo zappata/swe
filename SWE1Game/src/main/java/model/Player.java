@@ -38,17 +38,33 @@ public class Player {
 
   @Column(name = "status")
   private String status;
+  
+  @Column(name = "row")
+  private int row;
+  
+  @Column(name = "column")
+  private int column;
+  
+  @Column(name = "castle")
+  private boolean castle;
+  
+  @Column(name = "treasure")
+  private boolean treasure;
 
   @OneToMany(mappedBy = "player")
   private List<Turn> turns = new ArrayList<Turn>();
 
   public Player() {}
 
-  public Player(int id, String name, int number, String status) {
+  public Player(int id, String name, int number) {
     setId(id);
     setName(name);
     setNumber(number);
-    setStatus(status);
+    setStatus("");
+    setRow(0);
+    setColumn(0);
+    setCastle(false);
+    setTreasure(false);
   }
 
   @XmlElement
@@ -85,6 +101,38 @@ public class Player {
 
   public void setStatus(String status) {
     this.status = status;
+  }
+
+  public int getRow() {
+    return row;
+  }
+
+  public void setRow(int row) {
+    this.row = row;
+  }
+
+  public int getColumn() {
+    return column;
+  }
+
+  public void setColumn(int column) {
+    this.column = column;
+  }
+
+  public boolean isCastle() {
+    return castle;
+  }
+
+  public void setCastle(boolean castle) {
+    this.castle = castle;
+  }
+
+  public boolean isTreasure() {
+    return treasure;
+  }
+
+  public void setTreasure(boolean treasure) {
+    this.treasure = treasure;
   }
 
   @XmlElement(name = "turns")

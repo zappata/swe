@@ -3,7 +3,6 @@ package unitTest;
 import org.junit.Assert;
 import org.junit.Test;
 import interfaces.IRules;
-import model.Player;
 import model.Turn;
 import rule.Rules;
 

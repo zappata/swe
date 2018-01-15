@@ -9,8 +9,8 @@ public class PlayerTest {
   @Test
   public void createPlayer() {
     
-    Player player = new Player(1, "hamed", 1, "nichts");
+    Player player = new Player(1, "hamed", 1);
     
-    Assert.assertTrue(player.getStatus().equals("nichts"));
+    Assert.assertTrue(player.getStatus().equals(""));
   }
 }

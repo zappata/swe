@@ -32,9 +32,6 @@ public class Turn {
   @Column(name = "current_column")
   private int column;
 
-  @Column(name = "direction")
-  private int direction;
-
   @ManyToOne
   private Player player;
   
@@ -43,12 +40,11 @@ public class Turn {
 
   public Turn() {}
   
-  public Turn(int id, int count, int row, int column, int direction, Player player) {
+  public Turn(int id, int count, int row, int column, Player player) {
     setId(id);
     setCount(count);
     setRow(row);
     setColumn(column);
-    setDirection(direction);
     setPlayer(player);
   }
 
@@ -87,15 +83,6 @@ public class Turn {
 
   public void setColumn(int column) {
     this.column = column;
-  }
-
-  @XmlElement
-  public int getDirection() {
-    return direction;
-  }
-
-  public void setDirection(int direction) {
-    this.direction = direction;
   }
 
   @XmlElement
